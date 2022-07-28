@@ -323,14 +323,20 @@
             <h1 class="display-6 fw-semibold text-center">
                 Some Students Feedback
             </h1>
-            <p class="text-black-50 fw-semibold text-center">
+            <p class="text-black-50 fw-semibold text-center pb-4">
                 It is a long established fact that a reader will be distracted by the readable <br>
                 content of a page when looking at its layout.
             </p>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="row row-cols-1 row-cols-md-2 g-4 position-relative">
                 <div class="col">
                     <div class="card p-4">
                         <div class="d-flex justify-content-between align-items-center">
+                            <i
+                                class="fa-solid fa-circle-chevron-left fs-1 text-black-50 position-absolute top-50 start-0 translate-middle"></i>
+                            <i
+                                class="fa-solid fa-circle-chevron-right fs-1 text-success
+                            position-absolute top-50 start-100 translate-middle d-block d-sm-block d-md-none d-lg-none"></i>
+
                             <div>
                                 <img src="images/comma.png" class="card-img-top" style="width: 45px;height: 35px;"
                                     alt="...">
@@ -343,7 +349,6 @@
                                 <i class="fa-regular fa-star text-warning"></i>
                             </div>
                         </div>
-
 
                         <div class="card-body">
                             <p class="card-text">There are many variations of passages of Lorem Ipsum available, but
@@ -365,10 +370,11 @@
                     </div>
                 </div>
 
-
-                <div class="col">
+                <div class="col d-none d-sm-none d-md-block d-lg-block">
                     <div class="card p-4">
                         <div class="d-flex justify-content-between align-items-center">
+                            <i class="fa-solid fa-circle-chevron-right fs-1 text-success
+                            position-absolute top-50 start-100 translate-middle"></i>
                             <div>
                                 <img src="images/comma.png" class="card-img-top" style="width: 45px;height: 35px;"
                                     alt="...">
